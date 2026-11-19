@@ -296,10 +296,12 @@ function reportMarkup(record) {
     </section>
     ${planOutput}
     ${planExplanation}
-    <p class="report-disclaimer"><strong>Disclaimer:</strong> This report is generated solely for educational and informational purposes and does not constitute financial, legal or tax advice. All projections are illustrative, with no guaranteed returns. Digital assets involve market risks and potential capital loss. Figures may vary, and investors are responsible for independent due diligence and investment decisions. All activities are subject to applicable Indian laws and taxation. No accuracy, investment outcome or regulatory approval is guaranteed or implied.</p>
-    <div class="report-signature-space" aria-hidden="true"></div>
-    <div class="report-signature"><span>CLIENT SIGNATURE</span></div>
-    <div class="report-footer"><span>INTELLIGENCE. INSIGHT. INDIVIDUALIZED.</span><span>ORACLE NETWORKS &nbsp; · &nbsp; ${reportId}</span></div>
+    <div class="report-bottom-section">
+      <p class="report-disclaimer"><strong>Disclaimer:</strong> This report is generated solely for educational and informational purposes and does not constitute financial, legal or tax advice. All projections are illustrative, with no guaranteed returns. Digital assets involve market risks and potential capital loss. Figures may vary, and investors are responsible for independent due diligence and investment decisions. All activities are subject to applicable Indian laws and taxation. No accuracy, investment outcome or regulatory approval is guaranteed or implied.</p>
+      <div class="report-signature-space" aria-hidden="true"></div>
+      <div class="report-signature"><span>CLIENT SIGNATURE</span></div>
+      <div class="report-footer"><span>INTELLIGENCE. INSIGHT. INDIVIDUALIZED.</span><span>ORACLE NETWORKS &nbsp; · &nbsp; ${reportId}</span></div>
+    </div>
   </article>`;
 }
 function notify(message) {
