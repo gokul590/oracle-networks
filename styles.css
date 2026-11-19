@@ -404,68 +404,68 @@ main { max-width: 1340px; margin: 0 auto; padding: 0 34px; min-height: calc(100v
   body > *:not(#print-root) { display: none !important; }
   #print-root { display: block !important; position: static !important; inset: auto !important; width: 210mm !important; height: auto !important; margin: 0 !important; background: #fff !important; }
   #print-root .report-paper,
-  #print-root .report-paper.has-plan-output { box-sizing: border-box; display: flex !important; flex-direction: column; justify-content: flex-start !important; gap: 0; position: relative; width: 210mm !important; height: 297mm !important; min-height: 0 !important; max-height: 297mm !important; margin: 0; padding: 13mm 15mm 10mm !important; overflow: hidden; break-after: auto !important; page-break-after: auto !important; print-color-adjust: exact !important; -webkit-print-color-adjust: exact !important; }
+  #print-root .report-paper.has-plan-output { box-sizing: border-box; display: flex !important; flex-direction: column; justify-content: space-between !important; gap: 0; position: relative; width: 210mm !important; height: 297mm !important; min-height: 0 !important; max-height: 297mm !important; margin: 0; padding: 13mm 15mm 10mm !important; overflow: hidden; break-after: auto !important; page-break-after: auto !important; print-color-adjust: exact !important; -webkit-print-color-adjust: exact !important; }
   #print-root .report-paper::before { inset: 7mm; }
   #print-root .report-paper::after { display: block; }
 
-  #print-root .report-header { flex: 0 0 auto; padding-bottom: 4mm !important; }
+  #print-root .report-header { flex: 0 0 auto; padding-bottom: 5mm !important; }
   #print-root .report-logo { width: 41mm !important; max-height: 15mm !important; }
   #print-root .report-datetime { min-width: 0; padding: 0 0 0 3mm; gap: 1mm; }
-  #print-root .report-datetime-label { font-size: 5.3pt; }
-  #print-root .report-datetime-value { font-size: 7.4pt; }
-  #print-root .report-client-intro { flex: 0 0 auto; margin-top: 3mm; }
-  #print-root .report-greeting { margin: 0; font-size: 10pt; line-height: 1.2; }
-  #print-root .report-client { margin: 1mm 0 0; font-size: 19pt; line-height: 1.08; }
-  #print-root .report-plan { flex: 0 0 auto; min-height: 8mm; margin: 3mm 0 0; padding: 2mm 3.5mm; }
-  #print-root .report-plan span { font-size: 6pt; }
-  #print-root .report-plan b { font-size: 10pt; }
-  #print-root .report-section-label { margin: 2.2mm 0 .8mm !important; font-size: 5.7pt; }
-  #print-root .report-data td { padding: 1mm 0 !important; font-size: 6.8pt !important; line-height: 1.2; }
-  #print-root .report-data tr.estimate td:last-child { font-size: 8.5pt; }
+  #print-root .report-datetime-label { font-size: 6pt; }
+  #print-root .report-datetime-value { font-size: 8.4pt; }
+  #print-root .report-client-intro { flex: 0 0 auto; margin-top: 5mm; }
+  #print-root .report-greeting { margin: 0; font-size: 12pt; line-height: 1.2; }
+  #print-root .report-client { margin: 1.2mm 0 0; font-size: 22pt; line-height: 1.08; }
+  #print-root .report-plan { flex: 0 0 auto; min-height: 10mm; margin: 4mm 0 0; padding: 2.5mm 3.5mm; }
+  #print-root .report-plan span { font-size: 6.5pt; }
+  #print-root .report-plan b { font-size: 11pt; }
+  #print-root .report-section-label { margin: 2.8mm 0 1.2mm !important; font-size: 6pt; }
+  #print-root .report-data td { padding: 1.6mm 0 !important; font-size: 7.5pt !important; line-height: 1.25; }
+  #print-root .report-data tr.estimate td:last-child { font-size: 9pt; }
   #print-root .report-goals { gap: 1px 2px; }
   #print-root .report-goal { padding: .25mm .65mm; font-size: 5.1pt; line-height: 1.15; }
 
-  #print-root .report-scenario { flex: 0 0 auto; margin-top: 2.3mm !important; padding-top: 1.5mm !important; break-inside: avoid; }
-  #print-root .scenario-title { margin: 0 0 .8mm !important; font-size: 10pt !important; line-height: 1.15; }
-  #print-root .scenario-fact { padding: .55mm 0 !important; font-size: 5.8pt !important; line-height: 1.15; }
-  #print-root .scenario-fact b { font-size: 5.9pt !important; }
-  #print-root .scenario-allocation { gap: .8mm; margin-top: 1mm; }
-  #print-root .allocation-card { padding: .8mm 1.2mm; }
-  #print-root .allocation-card span { font-size: 5.3pt; }
-  #print-root .allocation-card b { font-size: 6.6pt; }
-  #print-root .allocation-card small { font-size: 5.1pt; }
-  #print-root .plan-table-wrap { overflow: visible; margin-top: 1.2mm !important; }
+  #print-root .report-scenario { flex: 0 0 auto; margin-top: 3.5mm !important; padding-top: 2.5mm !important; break-inside: avoid; }
+  #print-root .scenario-title { margin: 0 0 1.2mm !important; font-size: 11pt !important; line-height: 1.15; }
+  #print-root .scenario-fact { padding: .9mm 0 !important; font-size: 6.5pt !important; line-height: 1.2; }
+  #print-root .scenario-fact b { font-size: 6.5pt !important; }
+  #print-root .scenario-allocation { gap: 1mm; margin-top: 1.5mm; }
+  #print-root .allocation-card { padding: 1.3mm 1.6mm; }
+  #print-root .allocation-card span { font-size: 5.8pt; }
+  #print-root .allocation-card b { font-size: 7.2pt; }
+  #print-root .allocation-card small { font-size: 5.6pt; }
+  #print-root .plan-table-wrap { overflow: visible; margin-top: 1.8mm !important; }
   #print-root .plan-data { min-width: 0; }
-  #print-root .plan-data th { padding: .65mm .5mm !important; font-size: 5.35pt !important; line-height: 1.1; }
-  #print-root .plan-data td { padding: .55mm .5mm !important; font-size: 5.7pt !important; line-height: 1.1; }
-  #print-root .scenario-note { margin-top: .8mm !important; font-size: 5.6pt !important; line-height: 1.18 !important; }
+  #print-root .plan-data th { padding: 1mm .6mm !important; font-size: 6pt !important; line-height: 1.15; }
+  #print-root .plan-data td { padding: .9mm .6mm !important; font-size: 6.3pt !important; line-height: 1.15; }
+  #print-root .scenario-note { margin-top: 1.2mm !important; font-size: 6.1pt !important; line-height: 1.25 !important; }
 
-  #print-root .report-plan-explanation { flex: 0 0 auto; min-height: 0 !important; margin-top: 1.8mm !important; padding: 1.35mm 2mm !important; break-inside: avoid; }
-  #print-root .report-plan-explanation h2 { margin: 0 0 .35mm !important; font-size: 7.2pt !important; line-height: 1.15; }
-  #print-root .plan-explanation-tagline { margin: 0 0 .35mm !important; font-size: 6.25pt !important; line-height: 1.15; }
+  #print-root .report-plan-explanation { flex: 0 0 auto; min-height: 0 !important; margin-top: 2.5mm !important; padding: 2.5mm 3mm !important; break-inside: avoid; }
+  #print-root .report-plan-explanation h2 { margin: 0 0 .6mm !important; font-size: 8pt !important; line-height: 1.2; }
+  #print-root .plan-explanation-tagline { margin: 0 0 .6mm !important; font-size: 7pt !important; line-height: 1.2; }
   #print-root .plan-explanation-copy,
-  #print-root .plan-explanation-closing { font-size: 6.35pt !important; line-height: 1.18 !important; }
-  #print-root .plan-explanation-closing { margin-top: .35mm !important; }
+  #print-root .plan-explanation-closing { font-size: 7pt !important; line-height: 1.28 !important; }
+  #print-root .plan-explanation-closing { margin-top: .6mm !important; }
 
   /* The fixed-plan rules above used larger print spacing; keep them compact like the other plans. */
-  #print-root .plan-fixed .report-plan { margin-top: 3mm; margin-bottom: 0; padding: 2mm 3.5mm; }
-  #print-root .plan-fixed .report-section-label { margin: 2.2mm 0 .8mm !important; }
-  #print-root .plan-fixed .report-data td { padding: 1mm 0 !important; font-size: 6.8pt !important; }
-  #print-root .plan-fixed .report-scenario { margin-top: 2.3mm !important; padding-top: 1.5mm !important; }
-  #print-root .plan-fixed .scenario-title { margin-bottom: .8mm !important; font-size: 10pt !important; }
-  #print-root .plan-fixed .scenario-fact { padding: .55mm 0 !important; font-size: 5.8pt !important; }
-  #print-root .plan-fixed .scenario-fact b { font-size: 5.9pt !important; }
-  #print-root .plan-fixed .plan-table-wrap { margin-top: 1.2mm !important; }
-  #print-root .plan-fixed .plan-data th { padding: .65mm .5mm !important; font-size: 5.35pt !important; }
-  #print-root .plan-fixed .plan-data td { padding: .55mm .5mm !important; font-size: 5.7pt !important; }
-  #print-root .plan-fixed .scenario-note { margin-top: .8mm !important; font-size: 5.6pt !important; line-height: 1.18 !important; }
-  #print-root .plan-fixed .report-plan-explanation { margin-top: 1.8mm !important; padding: 1.35mm 2mm !important; min-height: 0 !important; }
-  #print-root .plan-fixed .report-plan-explanation h2 { font-size: 7.2pt !important; margin-bottom: .35mm !important; }
-  #print-root .plan-fixed .plan-explanation-tagline { font-size: 6.25pt !important; margin-bottom: .35mm !important; }
+  #print-root .plan-fixed .report-plan { margin-top: 4mm; margin-bottom: 0; padding: 2.5mm 3.5mm; }
+  #print-root .plan-fixed .report-section-label { margin: 2.8mm 0 1.2mm !important; }
+  #print-root .plan-fixed .report-data td { padding: 1.6mm 0 !important; font-size: 7.5pt !important; }
+  #print-root .plan-fixed .report-scenario { margin-top: 3.5mm !important; padding-top: 2.5mm !important; }
+  #print-root .plan-fixed .scenario-title { margin-bottom: 1.2mm !important; font-size: 11pt !important; }
+  #print-root .plan-fixed .scenario-fact { padding: .9mm 0 !important; font-size: 6.5pt !important; }
+  #print-root .plan-fixed .scenario-fact b { font-size: 6.5pt !important; }
+  #print-root .plan-fixed .plan-table-wrap { margin-top: 1.8mm !important; }
+  #print-root .plan-fixed .plan-data th { padding: 1mm .6mm !important; font-size: 6pt !important; }
+  #print-root .plan-fixed .plan-data td { padding: .9mm .6mm !important; font-size: 6.3pt !important; }
+  #print-root .plan-fixed .scenario-note { margin-top: 1.2mm !important; font-size: 6.1pt !important; line-height: 1.25 !important; }
+  #print-root .plan-fixed .report-plan-explanation { margin-top: 2.5mm !important; padding: 2.5mm 3mm !important; min-height: 0 !important; }
+  #print-root .plan-fixed .report-plan-explanation h2 { font-size: 8pt !important; margin-bottom: .6mm !important; }
+  #print-root .plan-fixed .plan-explanation-tagline { font-size: 7pt !important; margin-bottom: .6mm !important; }
   #print-root .plan-fixed .plan-explanation-copy,
-  #print-root .plan-fixed .plan-explanation-closing { font-size: 6.35pt !important; line-height: 1.18 !important; }
+  #print-root .plan-fixed .plan-explanation-closing { font-size: 7pt !important; line-height: 1.28 !important; }
 
-  #print-root .report-bottom-section { flex: 0 0 auto; margin-top: auto; padding-top: 2mm; }
+  #print-root .report-bottom-section { flex: 0 0 auto; margin-top: 0; padding-top: 2mm; }
   #print-root .report-disclaimer { margin: 0 !important; color: #777b82 !important; font-size: 5.2pt !important; line-height: 1.2 !important; }
   #print-root .report-signature-space { flex: 0 0 13mm !important; height: 13mm !important; }
   #print-root .report-signature { position: relative !important; inset: auto !important; width: 78mm; margin: 0 !important; }
