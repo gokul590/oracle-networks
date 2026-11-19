@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-IN" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090b10" />
+  <meta name="description" content="A refined India-focused workspace for Oracle Networks client records and investment summaries." />
+  <title>Oracle Networks — Private Client Desk | India</title>
+  <link rel="icon" type="image/png" href="assets/oracle-mark.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell" id="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" data-page="home" aria-label="Oracle Networks home">
+        <img src="assets/oracle-mark.png" alt="Oracle Networks" />
+      </a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="#home" data-page="home" class="nav-link is-active">Home</a>
+        <a href="#about" data-section="about" class="nav-link">About</a>
+        <a href="#platform" data-section="platform" class="nav-link">Platform</a>
+        <a href="#dashboard" data-page="dashboard" class="nav-link">Workspace</a>
+        <a href="#reports" data-page="reports" class="nav-link">Reports</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme"><span class="theme-glyph" aria-hidden="true">◐</span></button>
+        <button class="button button-gold button-compact" type="button" data-action="new-report">Create a report <span aria-hidden="true">↗</span></button>
+        <button class="menu-button icon-button" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <!-- OVERVIEW -->
+      <section class="page-view is-active" id="home-view" data-view="home" aria-labelledby="home-title">
+        <div class="hero-wrap">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-rule"></span> ORACLE NETWORKS <span class="eyebrow-separator">/</span> PRIVATE CLIENT DESK</p>
+            <h1 id="home-title">Clarity in every<br /><em>detail.</em></h1>
+            <p class="hero-lede">A considered workspace for recording client investments and preparing beautifully clear reports.</p>
+            <div class="hero-actions">
+              <button class="button button-gold" type="button" data-action="new-report">Create a client report <span aria-hidden="true">↗</span></button>
+              <button class="text-button" type="button" data-page="dashboard">Explore the workspace <span aria-hidden="true">→</span></button>
+            </div>
+            <div class="hero-note"><span class="status-dot"></span> Private by design <span class="note-divider"></span> Your records stay in this browser</div>
+          </div>
+          <div class="hero-art" aria-label="Oracle Networks brand mark">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-core">O</div>
+            <div class="art-index"><span>ON</span><span>EST. FOR CLARITY</span></div>
+            <div class="art-caption"><span>RECORD WITH CONFIDENCE</span><span class="art-caption-line"></span><span>01 — 03</span></div>
+          </div>
+        </div>
+        <div class="trust-strip">
+          <div><span class="trust-number">01</span><div><b>Thoughtful record keeping</b><small>Every detail, clearly in view</small></div></div>
+          <div><span class="trust-number">02</span><div><b>Transparent calculations</b><small>Estimates from your own inputs</small></div></div>
+          <div><span class="trust-number">03</span><div><b>Refined client documents</b><small>Ready to print or save as PDF</small></div></div>
+        </div>
+        <section class="about-section" id="about" aria-labelledby="about-title">
+          <div><p class="eyebrow">A MORE INTELLIGENT FINANCIAL PERSPECTIVE</p><h2 id="about-title">Intelligence.<br />Insight.<br /><em style="color:var(--gold-soft);font-style:normal">Individualized.</em></h2></div>
+          <p>Oracle Networks brings together personalized financial education, structured calculation tools and professionally designed reporting through one considered digital platform. Every figure is tied to the information entered for that record, with assumptions made clear and client documents kept close at hand.</p>
+        </section>
+        <section class="service-section" id="platform" aria-labelledby="service-title">
+          <div class="section-intro"><div><p class="eyebrow">A MORE CONSIDERED WORKFLOW</p><h2 id="service-title">Precision, from first entry<br />to final report.</h2></div><p>Simple tools, carefully composed around the moments that matter in a client record.</p></div>
+          <div class="service-grid">
+            <article class="service-card"><span class="service-no">01 / CAPTURE</span><div class="service-icon icon-lines"><i></i><i></i><i></i></div><h3>One clear record</h3><p>Capture client details, plan selection and the transaction figures in one guided flow.</p><button type="button" class="card-link" data-action="new-report">Start a report <span>↗</span></button></article>
+            <article class="service-card"><span class="service-no">02 / CALCULATE</span><div class="service-icon icon-ring"><i></i></div><h3>Numbers in context</h3><p>See the estimated BDX quantity update as you enter the amount and unit price.</p><button type="button" class="card-link" data-page="dashboard">View workspace <span>↗</span></button></article>
+            <article class="service-card"><span class="service-no">03 / PRESENT</span><div class="service-icon icon-doc"><i></i><i></i></div><h3>Made to be shared</h3><p>Prepare a polished, branded summary for printing or saving as a PDF.</p><button type="button" class="card-link" data-page="reports">Browse reports <span>↗</span></button></article>
+          </div>
+        </section>
+        <section class="closing-banner"><div><p class="eyebrow">YOUR PRIVATE CLIENT DESK</p><h2>Begin with a clear record.</h2></div><button class="button button-outline" type="button" data-action="new-report">Create a report <span aria-hidden="true">↗</span></button></section>
+      </section>
+
+      <!-- DASHBOARD -->
+      <section class="page-view" id="dashboard-view" data-view="dashboard" aria-labelledby="dashboard-title" hidden>
+        <div class="page-heading"><div><p class="eyebrow">PRIVATE CLIENT DESK <span class="eyebrow-separator">/</span> OVERVIEW</p><h1 id="dashboard-title">Your workspace.</h1><p class="page-subtitle">A clear view of the records saved in this browser.</p></div><button class="button button-gold" type="button" data-action="new-report">New client report <span aria-hidden="true">↗</span></button></div>
+        <div class="stat-grid" id="dashboard-stats" aria-live="polite"></div>
+        <div class="dashboard-grid">
+          <section class="panel chart-panel" aria-labelledby="allocation-title">
+            <div class="panel-heading"><div><p class="eyebrow">RECORD MIX</p><h2 id="allocation-title">Plan distribution</h2></div><span class="data-badge"><span class="status-dot"></span> SAVED RECORDS</span></div>
+            <div class="chart-content" id="plan-chart"></div>
+            <p class="chart-footnote">Share of saved client records by selected plan. This is not a portfolio allocation.</p>
+          </section>
+          <section class="panel activity-panel" aria-labelledby="activity-title">
+            <div class="panel-heading"><div><p class="eyebrow">LATEST ENTRIES</p><h2 id="activity-title">Recent reports</h2></div><button class="quiet-link" type="button" data-page="reports">View all <span>→</span></button></div>
+            <div id="recent-reports"></div>
+          </section>
+        </div>
+        <section class="panel records-panel" aria-labelledby="records-title">
+          <div class="panel-heading records-heading"><div><p class="eyebrow">YOUR LOCAL ARCHIVE</p><h2 id="records-title">Client records</h2></div><div class="table-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="dashboard-search" type="search" placeholder="Search by name or reference" aria-label="Search client records" /></label><label class="select-wrap"><span class="sr-only">Filter by plan</span><select id="dashboard-plan-filter"><option value="all">All plans</option><option>BVS Fixed</option><option>BVS Combo</option><option>Elite Staking Plan (ESP)</option><option value="Silver">Silver · archived</option><option value="Gold">Gold · archived</option><option value="Platinum">Platinum · archived</option></select></label></div></div>
+          <div id="dashboard-table"></div>
+        </section>
+        <p class="local-note"><span>i</span> Records are stored locally in this browser. No market prices or live financial data are used.</p>
+      </section>
+
+      <!-- REPORT ARCHIVE -->
+      <section class="page-view" id="reports-view" data-view="reports" aria-labelledby="reports-title" hidden>
+        <div class="page-heading"><div><p class="eyebrow">PRIVATE CLIENT DESK <span class="eyebrow-separator">/</span> ARCHIVE</p><h1 id="reports-title">Client reports.</h1><p class="page-subtitle">Search, review and print records saved on this device.</p></div><button class="button button-gold" type="button" data-action="new-report">Create a report <span aria-hidden="true">↗</span></button></div>
+        <section class="panel archive-panel" aria-label="Report archive">
+          <div class="archive-toolbar"><div class="archive-count" id="archive-count">0 REPORTS</div><div class="table-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="report-search" type="search" placeholder="Search clients or reference IDs" aria-label="Search reports" /></label><label class="select-wrap"><span class="sr-only">Filter by plan</span><select id="report-plan-filter"><option value="all">All plans</option><option>BVS Fixed</option><option>BVS Combo</option><option>Elite Staking Plan (ESP)</option><option value="Silver">Silver · archived</option><option value="Gold">Gold · archived</option><option value="Platinum">Platinum · archived</option></select></label><label class="select-wrap period-filter"><span class="sr-only">Filter by date</span><select id="report-period-filter"><option value="all">Any date</option><option value="30">Past 30 days</option><option value="90">Past 90 days</option></select></label></div></div>
+          <div id="reports-table"></div>
+        </section>
+        <p class="local-note"><span>i</span> The archive belongs to this browser and can be cleared from your browser settings at any time.</p>
+      </section>
+
+      <!-- REPORT WIZARD -->
+      <section class="page-view" id="create-view" data-view="create" aria-labelledby="create-title" hidden>
+        <div class="page-heading create-heading"><div><p class="eyebrow">PRIVATE CLIENT DESK <span class="eyebrow-separator">/</span> NEW RECORD</p><h1 id="create-title">A clear report, step by step.</h1><p class="page-subtitle">Enter the recorded details. Your figures stay in this browser.</p></div><button class="text-button back-link" type="button" data-page="reports">← Back to reports</button></div>
+        <div class="wizard-layout">
+          <div class="wizard-main panel">
+            <div class="wizard-progress" aria-label="Report creation progress">
+              <button class="progress-step is-current" type="button" data-step-jump="0" aria-current="step"><span>01</span><b>Client</b></button><i class="progress-line"></i>
+              <button class="progress-step" type="button" data-step-jump="1"><span>02</span><b>Investment</b></button><i class="progress-line"></i>
+              <button class="progress-step" type="button" data-step-jump="2"><span>03</span><b>Review</b></button>
+            </div>
+            <form id="report-form" novalidate>
+              <div class="wizard-panel is-visible" data-wizard-panel="0">
+                <div class="wizard-title"><span class="step-kicker">STEP 01</span><h2>Who is this record for?</h2><p>Enter the client details as they should appear in the report.</p></div>
+                <label class="field">Client name <span>*</span><input id="client-name" name="name" autocomplete="name" placeholder="Full name" required /></label>
+                <label class="field">Phone number <small>Optional</small><input id="client-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+91 98765 43210" /></label>
+              </div>
+              <div class="wizard-panel" data-wizard-panel="1" hidden>
+                <div class="wizard-title"><span class="step-kicker">STEP 02</span><h2>Record the investment.</h2><p>Use the amount, unit price and time from your own transaction record.</p></div>
+                <fieldset class="plan-select"><legend>Selected plan <span>*</span></legend><div class="plan-options">
+                  <label class="plan-option"><input type="radio" name="plan" value="BVS Fixed" required /><span class="plan-check"></span><span><b>BVS Fixed</b><small>3- or 5-year reference</small></span><i class="plan-metal gold-metal"></i></label>
+                  <label class="plan-option"><input type="radio" name="plan" value="BVS Combo" /><span class="plan-check"></span><span><b>BVS Combo</b><small>50% regular · 50% fixed</small></span><i class="plan-metal gold-metal"></i></label>
+                  <label class="plan-option"><input type="radio" name="plan" value="Elite Staking Plan (ESP)" /><span class="plan-check"></span><span><b>Elite Staking (ESP)</b><small>5-year tier reference</small></span><i class="plan-metal platinum-metal"></i></label>
+                </div></fieldset>
+                <div class="field-row"><label class="field">Investment coin quantity (BDX) <span>*</span><input id="investment-coins" name="coinAmount" type="number" min="1" step="1" inputmode="numeric" placeholder="e.g. 50000" required /></label><label class="field">Reference currency <span>*</span><select id="investment-currency" name="currency"><option value="INR" selected>INR — Indian Rupee</option><option value="USD">USD — US Dollar</option><option value="BDT">BDT — Bangladeshi Taka</option><option value="EUR">EUR — Euro</option><option value="USDT">USDT</option></select></label></div>
+                <label class="field" id="duration-field" hidden>Plan duration <span>*</span><select id="plan-duration" name="duration"><option value="3">3 years — reference 250%</option><option value="5">5 years — reference 400%</option></select></label>
+                <div class="field-row"><label class="field">BDX price at investment <span>*</span><div class="input-prefix"><span id="price-symbol">₹</span><input id="unit-price" name="price" type="number" min="0.00000001" step="any" placeholder="Price per BDX" required /></div></label><label class="field">Investment date &amp; time (IST) <span>*</span><input id="investment-date" name="datetime" type="datetime-local" required /></label></div>
+                <label class="field">Transaction / reference ID <small>Optional</small><input id="transaction-reference" name="reference" placeholder="Add a reference number" /></label>
+                <p class="calculation-note"><span>CALCULATION</span> Reference valuation = whole BDX coin quantity × the BDX price you enter. That price is saved with the investment date and time and does not update from a live feed.</p>
+                <fieldset class="goal-select"><legend>What are your financial goals?</legend><p class="goal-prompt">Select all goals that match your future aspirations.</p><div class="goal-options">
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Dream Home &amp; Property" /><span class="goal-check"></span><span>Dream Home &amp; Property</span></label>
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Son's / Daughter's Marriage" /><span class="goal-check"></span><span>Son's / Daughter's Marriage</span></label>
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Children's Higher Education" /><span class="goal-check"></span><span>Children's Higher Education</span></label>
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Retirement &amp; Financial Freedom" /><span class="goal-check"></span><span>Retirement &amp; Financial Freedom</span></label>
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Monthly Income Aspirations" /><span class="goal-check"></span><span>Monthly Income Aspirations</span></label>
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Business Expansion" /><span class="goal-check"></span><span>Business Expansion</span></label>
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Wealth Creation &amp; Asset Building" /><span class="goal-check"></span><span>Wealth Creation &amp; Asset Building</span></label>
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Dream Vacation &amp; Foreign Travel" /><span class="goal-check"></span><span>Dream Vacation &amp; Foreign Travel</span></label>
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Vehicle &amp; Lifestyle Upgrade" /><span class="goal-check"></span><span>Vehicle &amp; Lifestyle Upgrade</span></label>
+                  <label class="goal-option"><input type="checkbox" name="financialGoals" value="Family Financial Security" /><span class="goal-check"></span><span>Family Financial Security</span></label>
+                </div><label class="other-goal-label" for="other-financial-goal">Other financial goal <small>Optional</small></label><input class="other-goal-input" id="other-financial-goal" name="otherFinancialGoal" placeholder="Enter your own financial goal" /></fieldset>
+              </div>
+              <div class="wizard-panel" data-wizard-panel="2" hidden>
+                <div class="wizard-title"><span class="step-kicker">STEP 03</span><h2>Review your record.</h2><p>Check each detail before saving or creating the PDF.</p></div>
+                <div id="review-summary" class="review-summary"></div>
+                <label class="confirm-check"><input id="confirm-record" type="checkbox" /><span class="custom-checkbox"></span><span>I confirm these details reflect the record I entered.</span></label>
+              </div>
+              <p class="form-error" id="form-error" role="alert" hidden>Please complete the required fields before continuing.</p>
+              <div class="wizard-actions"><button class="button button-quiet" type="button" id="wizard-back" hidden>← Back</button><span class="wizard-spacer"></span><button class="button button-gold" type="button" id="wizard-next">Continue <span aria-hidden="true">→</span></button><div class="finish-actions" id="finish-actions" hidden><button class="button button-quiet" type="button" id="wizard-save">Save report</button><button class="button button-gold" type="button" id="wizard-print">Save &amp; create PDF <span aria-hidden="true">↗</span></button></div></div>
+              <p class="privacy-note">Your client information remains in local browser storage.</p>
+            </form>
+          </div>
+          <aside class="preview-column" aria-live="polite"><div class="preview-heading"><span>LIVE CALCULATION</span><span class="preview-live"><i></i> UPDATING</span></div><section class="calc-card"><div class="calc-label">ESTIMATED BDX AMOUNT</div><div class="calc-result" id="calc-result">— <small>BDX</small></div><div class="calc-equation"><span id="calc-amount">Enter BDX coins</span><i>×</i><span id="calc-price">Enter BDX price</span></div><div class="calc-reference-value" id="calc-reference-value">Reference valuation: —</div><div class="calc-divider"></div><div id="plan-live-preview" class="plan-live-preview">Choose a plan to preview its illustrative output.</div><p>All plan figures are illustrative references from the supplied sheets, not verified terms or guaranteed returns.</p></section><div class="preview-mini-label">REPORT DETAILS <span>PREVIEW</span></div><div id="report-preview-mini" class="report-preview-mini"></div></aside>
+        </div>
+      </section>
+
+      <!-- REPORT DETAIL -->
+      <section class="page-view" id="detail-view" data-view="detail" aria-labelledby="detail-title" hidden>
+        <div class="page-heading detail-heading"><div><p class="eyebrow">PRIVATE CLIENT DESK <span class="eyebrow-separator">/</span> REPORT PREVIEW</p><h1 id="detail-title">Client report.</h1><p class="page-subtitle" id="detail-subtitle">A printable summary of the selected record.</p></div><div class="detail-actions"><button class="button button-quiet" type="button" data-page="reports">← All reports</button><button class="button button-gold" id="detail-print" type="button">Print / Save PDF <span aria-hidden="true">↗</span></button></div></div>
+        <div id="report-preview-full" class="report-preview-full"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="footer-brand" href="#home" data-page="home"><img src="assets/oracle-mark.png" alt="Oracle Networks" /></a><span>Private client desk <i></i> Records stay on this device</span><span>© <span id="year"></span> Oracle Networks</span></footer>
+  </div>
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <dialog class="confirm-dialog" id="confirm-dialog" aria-labelledby="confirm-title">
+    <span class="step-kicker">CONFIRM ACTION</span>
+    <h2 id="confirm-title">Remove this report?</h2>
+    <p id="confirm-message">This removes the saved record from this browser.</p>
+    <div class="confirm-actions"><button class="button button-quiet" id="cancel-delete" type="button">Keep report</button><button class="button button-danger" id="confirm-delete" type="button">Delete report</button></div>
+  </dialog>
+  <div id="print-root" aria-hidden="true"></div>
+</body>
+</html>
